@@ -2,9 +2,7 @@
 Sean Dever
 11/11/20
 Proxy Server
-This proxy server uses the command curl. curl is available on mac os and linux. It can be installed on windows as well. I do not create a client, instead I use the webbrower as the client.
-
-The simple command "curl URL > filename.html" will download the html file at that url and pipe the output to the filename.html file. The remaining work involves creating a tcp server.
+This proxy server uses the command wget to retieve webpages. wget is native to Linux and can be installed on both Mac OS and Windows.
 
 ***The HOST value must be updated to your IP or local address
     For IP I like to use the command "ifconfig | grep inet". This command runs ifconfig and then piping the output to grep to parse for "inet".
